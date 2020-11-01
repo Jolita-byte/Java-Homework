@@ -20,6 +20,7 @@ public class Human {
     private String [] FavoriteMovies;
     private String [] FavoriteActivities;
     private String [] Achievements;
+    private String [] Bodyparts;
 
     public Human(String name, String surname, String gender, String hairColor, String race, char[] DNRcode, Boolean extroverted) {
         Name = name;
@@ -53,4 +54,7 @@ public class Human {
                 ", Achievements=" + Arrays.toString(Achievements) +
                 '}';
     }
+
+    
+
 }
